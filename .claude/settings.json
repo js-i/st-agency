@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(sleep 3 && cat /tmp/nextdev.log | tail -30)",
+      "Read(//private/tmp/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3006/contact)",
+      "Bash(curl -s http://localhost:3006/contact)",
+      "Bash(curl -s http://localhost:3006/)",
+      "Bash(curl -s http://localhost:3006/ru)"
+    ]
+  }
+}

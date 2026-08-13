@@ -1,0 +1,72 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "ourApproach": "Our Approach",
+    "programmes": "Citizenship Programmes",
+    "insights": "Insights",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "privacy": "Privacy Policy",
+    "openInsights": "Open Insights panel",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "buttons": {
+    "getConsultation": "Get a Consultation",
+    "ourProgrammes": "Our Programmes",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "sendRequest": "Send Request",
+    "howWeWork": "How We Work",
+    "moreAboutProgrammes": "More About Our Programmes",
+    "viewAllInsights": "View All Insights",
+    "backToInsights": "Back to Insights",
+    "readArticle": "Read Article",
+    "sending": "Sending…"
+  },
+  "footer": {
+    "description": "Island Horizons is an international consulting company in investment migration. We guide clients through citizenship by official government investment programmes, helping them make confident decisions and open new opportunities for business, family and the future.",
+    "quickLinks": "Quick Links",
+    "company": "Company",
+    "getInTouch": "Get in Touch",
+    "officeHours": "Monday – Friday, 09:00–18:00 (GMT)",
+    "rights": "All rights reserved.",
+    "ctaTitle": "Let's discuss your goals",
+    "ctaText": "Reach out for a personal consultation and find out which investment citizenship programme fits your long-term plans."
+  },
+  "form": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Country of residence",
+    "programme": "Programme of interest",
+    "programmePlaceholder": "Select a programme",
+    "message": "Message",
+    "consent": "By submitting this request, you agree to the processing of your personal data in accordance with our Privacy Policy.",
+    "success": "Thank you. Your request has been received — our team will contact you shortly.",
+    "error": "Something went wrong while sending your request. Please try again or email us directly.",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "cookie": {
+    "message": "We use cookies and analytics to understand how visitors use this site and to improve our content. No personal data is sold or shared with third parties.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Privacy Policy"
+  },
+  "insights": {
+    "panelTitle": "Insights",
+    "panelIntro": "Expert perspective on citizenship by investment, global mobility and international planning.",
+    "categories": "Categories",
+    "allArticles": "All Articles",
+    "readingTime": "{minutes} min read"
+  },
+  "common": {
+    "comingSoon": "Coming Soon",
+    "available": "Available",
+    "language": "Language"
+  }
+}

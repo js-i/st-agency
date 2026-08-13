@@ -1,0 +1,160 @@
+import {
+  ShieldIcon,
+  GlobeIcon,
+  CompassIcon,
+  DocumentsIcon,
+  HandshakeIcon,
+  PrivacyIcon,
+  FamilyIcon,
+} from "@/components/icons/BrandIcons";
+
+export const solutionsContent = {
+  en: {
+    hero: {
+      eyebrow: "Solutions",
+      title: "Comprehensive solutions for global mobility",
+      text: "Every client comes to us with their own history, goals and plans for the future. That is why we do not offer generic services. We offer solutions that help you navigate global mobility, investment migration and long-term planning with confidence — and identify the most suitable path with professional guidance at every stage.",
+    },
+    items: [
+      {
+        icon: ShieldIcon,
+        title: "Citizenship by Investment",
+        subtitle: "Second citizenship through official government programmes",
+        text: "We guide clients through obtaining second citizenship via official government programmes designed to attract international investment. Each programme has its own requirements, review timelines and participation terms. We help determine which programme best matches your personal, family and business goals, organise the application process, and guide you through to a successful outcome.",
+        status: "available" as const,
+      },
+      {
+        icon: GlobeIcon,
+        title: "Residency by Investment",
+        subtitle: "An alternative path for some clients",
+        text: "For some clients, the optimal solution is not citizenship but resident status. We advise on investment residency programmes that open opportunities for living, running a business, and long-term planning across different jurisdictions. As our international portfolio grows, this section will expand with new programmes.",
+        status: "comingSoon" as const,
+      },
+      {
+        icon: CompassIcon,
+        title: "Programme Selection",
+        subtitle: "An individual strategy",
+        text: "Every government programme has its own characteristics. We analyse the client's goals, family situation, professional activity and future plans in order to propose a solution that genuinely matches their expectations. Our recommendations are always based on objective analysis, not on promoting any single programme.",
+        status: "available" as const,
+      },
+      {
+        icon: PrivacyIcon,
+        title: "Due Diligence Guidance",
+        subtitle: "Preliminary assessment",
+        text: "One of the key stages of investment migration is the comprehensive due diligence review. We advise clients in advance on programme requirements, help prepare the necessary information, and work to minimise questions that may arise during review.",
+        status: "available" as const,
+      },
+      {
+        icon: DocumentsIcon,
+        title: "Document Preparation",
+        subtitle: "Comprehensive support",
+        text: "We provide full support in preparing the documents required for participation in government programmes. We help assemble a complete document package, advise on programme requirements, and guide the client through every stage of preparation.",
+        status: "available" as const,
+      },
+      {
+        icon: GlobeIcon,
+        title: "Translation & Legalisation",
+        subtitle: "International documentation",
+        text: "Where required, we arrange translations, notarisation, legalisation and other procedures needed to use documents within international programmes.",
+        status: "available" as const,
+      },
+      {
+        icon: HandshakeIcon,
+        title: "End-to-End Application Support",
+        subtitle: "From consultation to citizenship",
+        text: "Once a programme is selected, we coordinate the application process, liaise with all parties involved, and guide the client through to the completion of review. We work to make the entire process as clear, sequential and comfortable as possible.",
+        status: "available" as const,
+      },
+      {
+        icon: FamilyIcon,
+        title: "Post-Citizenship Support",
+        subtitle: "Long-term partnership",
+        text: "Our relationship with a client does not end once citizenship is granted. We continue providing advisory support on matters related to using the new status, international mobility, and further opportunities.",
+        status: "available" as const,
+      },
+    ],
+    future: {
+      title: "Growing With Our Clients",
+      text: "Island Horizons grows alongside its clients. As our international portfolio expands, we plan to add further advisory directions, including Golden Visa programmes, international business consulting, relocation services, wealth and family planning, and investment advisory.",
+    },
+    closing: {
+      title: "In Closing",
+      text: "Every solution begins with understanding the client's goals. We study each situation closely, help clarify the available options, and guide the process professionally, transparently and confidentially. Our task is not to offer as many programmes as possible — it is to help you choose the one that truly serves your long-term interests.",
+    },
+    cta: "Get a Consultation",
+  },
+  ru: {
+    hero: {
+      eyebrow: "Решения",
+      title: "Комплексные решения для глобальной мобильности",
+      text: "Каждый клиент приходит к нам с собственной историей, целями и планами на будущее. Поэтому мы не предлагаем универсальные услуги. Мы предлагаем решения, которые помогают уверенно ориентироваться в вопросах международной мобильности, инвестиционной миграции и долгосрочного планирования.",
+    },
+    items: [
+      {
+        icon: ShieldIcon,
+        title: "Citizenship by Investment",
+        subtitle: "Гражданство за инвестиции через официальные программы",
+        text: "Мы сопровождаем получение второго гражданства через официальные государственные программы, разработанные для привлечения международных инвестиций. Каждая программа имеет собственные требования, сроки рассмотрения и условия участия. Мы помогаем определить, какая программа наиболее соответствует вашим личным, семейным и деловым целям, организуем процесс оформления и сопровождаем клиента до его успешного завершения.",
+        status: "available" as const,
+      },
+      {
+        icon: GlobeIcon,
+        title: "Residency by Investment",
+        subtitle: "Альтернативное решение для некоторых клиентов",
+        text: "Для некоторых клиентов оптимальным решением становится не получение гражданства, а оформление статуса резидента. Мы консультируем по программам инвестиционного резидентства, которые открывают возможности для проживания, ведения бизнеса и долгосрочного планирования в различных юрисдикциях. По мере расширения международного портфеля компании этот раздел будет дополнен новыми программами.",
+        status: "comingSoon" as const,
+      },
+      {
+        icon: CompassIcon,
+        title: "Выбор программы",
+        subtitle: "Индивидуальная стратегия",
+        text: "Каждая государственная программа имеет свои особенности. Мы анализируем цели клиента, семейную ситуацию, профессиональную деятельность и планы на будущее, чтобы предложить решение, которое действительно соответствует его ожиданиям. Наши рекомендации всегда основаны на объективном анализе, а не на продвижении одной конкретной программы.",
+        status: "available" as const,
+      },
+      {
+        icon: PrivacyIcon,
+        title: "Due Diligence",
+        subtitle: "Предварительная оценка",
+        text: "Одним из ключевых этапов инвестиционной миграции является процедура комплексной проверки. Мы заранее консультируем клиентов по требованиям программ, помогаем подготовить необходимую информацию и минимизировать возможные вопросы на этапе рассмотрения заявления.",
+        status: "available" as const,
+      },
+      {
+        icon: DocumentsIcon,
+        title: "Подготовка документов",
+        subtitle: "Комплексное сопровождение",
+        text: "Мы оказываем всестороннюю поддержку при подготовке документов, необходимых для участия в государственных программах. Мы помогаем собрать полный пакет документов, консультируем по требованиям программы и сопровождаем клиента на протяжении всего процесса.",
+        status: "available" as const,
+      },
+      {
+        icon: GlobeIcon,
+        title: "Переводы и легализация",
+        subtitle: "Международная документация",
+        text: "При необходимости мы организуем подготовку переводов, нотариальное заверение, легализацию и другие процедуры, необходимые для использования документов в международных программах.",
+        status: "available" as const,
+      },
+      {
+        icon: HandshakeIcon,
+        title: "Сопровождение процесса",
+        subtitle: "От консультации до получения гражданства",
+        text: "После выбора программы мы координируем процесс оформления, взаимодействуем с участниками процедуры и сопровождаем клиента до завершения рассмотрения заявления. Мы стремимся сделать весь процесс максимально понятным, последовательным и комфортным.",
+        status: "available" as const,
+      },
+      {
+        icon: FamilyIcon,
+        title: "Поддержка после получения гражданства",
+        subtitle: "Долгосрочное сотрудничество",
+        text: "Наше взаимодействие с клиентом не заканчивается после получения гражданства. Мы продолжаем оказывать консультационную поддержку по вопросам, связанным с использованием нового статуса, международной мобильностью и дальнейшими возможностями.",
+        status: "available" as const,
+      },
+    ],
+    future: {
+      title: "Развитие международных решений",
+      text: "Island Horizons развивается вместе со своими клиентами. По мере расширения международного портфеля в компании будут доступны новые направления консультирования, включая программы Golden Visa, сопровождение международного бизнеса, услуги релокации, планирование благосостояния и семейное планирование, а также инвестиционный консалтинг.",
+    },
+    closing: {
+      title: "Заключение",
+      text: "Каждое решение начинается с понимания целей клиента. Мы внимательно анализируем каждую ситуацию, помогаем разобраться в доступных возможностях и сопровождаем процесс профессионально, прозрачно и конфиденциально. Наша задача — не предложить как можно больше программ. Наша задача — помочь выбрать решение, которое действительно отвечает вашим долгосрочным интересам.",
+    },
+    cta: "Получить консультацию",
+  },
+} as const;
