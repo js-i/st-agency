@@ -9,72 +9,72 @@ export const faqContent = {
       {
         question: "What is citizenship by investment?",
         answer:
-          "Citizenship by investment is a route provided under the law of certain countries that allows foreign investors to obtain citizenship by meeting the requirements of a government program. Such programs are created by states to attract investment that supports economic development, infrastructure and other national projects.",
+          "A legal route in certain countries that lets foreign investors obtain citizenship by meeting a government program's requirements — created to attract investment into the country's economy and infrastructure.",
       },
       {
         question: "Is citizenship by investment legal?",
         answer:
-          "Yes. We work exclusively with official government programs operating under the laws of the respective countries. Each program is governed by national legislation with an established review procedure.",
+          "Yes. We work only with official government programs, each governed by national law with an established review process.",
       },
       {
         question: "Who can apply?",
         answer:
-          "Requirements depend on the specific government program. Generally, an applicant must meet established criteria, pass the required due diligence checks, and satisfy the program's investment conditions. During the consultation, we help determine whether the chosen program suits you.",
+          "Requirements vary by program, but generally applicants must meet set criteria, pass due diligence, and satisfy the investment conditions. We help determine fit during the consultation.",
       },
       {
         question: "Can family members be included in the application?",
         answer:
-          "Many programs allow a joint family application. The eligible family members are determined by the rules of the specific program. We explain these conditions in detail as they apply to your situation.",
+          "Most programs allow a joint family application — eligibility depends on the specific program's rules, which we explain for your situation.",
       },
       {
         question: "Is a personal visit to the country required?",
         answer:
-          "This depends on the requirements of the chosen program. Some programs allow most procedures to be completed remotely, while others require personal presence at certain stages. We explain the applicable requirements in advance.",
+          "Depends on the program — some allow remote processing, others require presence at certain stages. We clarify this upfront.",
       },
       {
         question: "What documents will be required?",
         answer:
-          "The list of documents depends on the program and your individual situation. Typically, identity documents, proof of marital/family status, and other documents required by the program are needed. After the consultation, we provide an individual document list and explain how to prepare it.",
+          "Typically identity and family-status documents, plus anything specific to the program. We provide your exact list after the consultation.",
       },
       {
         question: "What is Due Diligence?",
         answer:
-          "Due Diligence is a comprehensive background review conducted under most government programs. Its purpose is to confirm the applicant meets program requirements and to ensure a high standard of procedural reliability. We advise clients in advance on preparing for this stage.",
+          "A background review most programs require, confirming the applicant meets eligibility standards. We help you prepare for it in advance.",
       },
       {
         question: "How long does the process take?",
         answer:
-          "Review timelines depend on the specific program and the particulars of each case. During the consultation, we provide current information on expected timelines.",
+          "Timelines depend on the program and your specific case — we share current estimates during the consultation.",
       },
       {
         question: "Is citizenship guaranteed?",
         answer:
-          "No. The final decision always rests with the competent government authorities. Our task is to guide the process professionally, help prepare the documents, and ensure the highest possible quality of organisation.",
+          "No — the final decision rests with government authorities. We focus on preparing the strongest possible application.",
       },
       {
         question: "Can I keep my current citizenship?",
         answer:
-          "This depends on the laws of your current country of citizenship as well as the laws of the country whose citizenship you are seeking. We recommend obtaining individual advice on your situation before starting the process.",
+          "Depends on the laws of both countries involved. We recommend individual advice before starting.",
       },
       {
         question: "How do I choose the right program?",
         answer:
-          "There is no universal solution. Choosing a program requires considering your goals, family composition, future plans, investment capacity, and the specifics of each government program. That is why we begin every engagement with a consultation and an individual analysis.",
+          "It depends on your goals, family, investment capacity and each program's specifics — which is why we start with a consultation, not a pitch.",
       },
       {
         question: "Why work with Island Horizons?",
         answer:
-          "We guide clients beyond the paperwork. We help you understand the programs, explain the specifics of each procedure, coordinate the process, and support you at every stage of interaction. Our work is built on professionalism, transparency, confidentiality and an individual approach.",
+          "We go beyond paperwork — explaining programs, coordinating the process, and supporting you at every stage with transparency and confidentiality.",
       },
       {
         question: "How do I begin working with you?",
         answer:
-          "Reach out to us through any convenient channel and tell us about your request. We will arrange a personal consultation, answer your questions, introduce you to the current programs, and help identify the most suitable solution.",
+          "Reach out through any channel that's convenient. We'll arrange a consultation and help identify the right solution.",
       },
     ],
     closing: {
       title: "Still Have Questions?",
-      text: "If you haven't found an answer to your question, get in touch. We would be glad to provide an individual consultation and help you understand the specifics of investment citizenship programs.",
+      text: "Didn't find your answer? Get in touch — we're glad to walk through your specific situation.",
       cta: "Get a Consultation",
     },
   },
@@ -88,72 +88,72 @@ export const faqContent = {
       {
         question: "Что такое гражданство за инвестиции?",
         answer:
-          "Гражданство за инвестиции (Citizenship by Investment) — это предусмотренная законодательством некоторых государств возможность получения гражданства иностранными инвесторами при выполнении установленных требований государственной программы. Такие программы создаются государствами для привлечения инвестиций, направленных на развитие экономики, инфраструктуры и других национальных проектов.",
+          "Предусмотренная законодательством некоторых стран возможность получить гражданство при соблюдении требований государственной программы — так страны привлекают инвестиции в экономику и инфраструктуру.",
       },
       {
         question: "Законно ли получение гражданства за инвестиции?",
         answer:
-          "Да. Мы работаем исключительно с официальными государственными программами, действующими в соответствии с законодательством соответствующих стран. Каждая программа регулируется национальными законами и предусматривает установленный порядок рассмотрения заявлений.",
+          "Да. Мы работаем только с официальными государственными программами, которые регулируются национальным законодательством и предусматривают установленный порядок рассмотрения.",
       },
       {
         question: "Кто может подать заявление?",
         answer:
-          "Требования зависят от конкретной государственной программы. Как правило, заявитель должен соответствовать установленным критериям, пройти предусмотренные проверки и выполнить инвестиционные условия программы. Во время консультации мы поможем определить, подходит ли выбранная программа именно вам.",
+          "Требования зависят от программы: как правило, нужно соответствовать критериям, пройти проверку и выполнить инвестиционные условия. Поможем определить это на консультации.",
       },
       {
         question: "Можно ли включить в заявление членов семьи?",
         answer:
-          "Во многих программах предусмотрена возможность подачи совместного заявления. Состав членов семьи, которые могут быть включены в заявление, определяется правилами конкретной программы. Мы подробно объясним эти условия применительно к вашей ситуации.",
+          "Большинство программ позволяют подать заявление всей семьёй — состав определяется правилами конкретной программы, которые мы объясним применительно к вашей ситуации.",
       },
       {
         question: "Нужно ли лично посещать страну?",
         answer:
-          "Это зависит от требований выбранной программы. Некоторые программы позволяют выполнить большую часть процедур дистанционно, в то время как другие могут предусматривать личное присутствие на определенных этапах. Мы заранее расскажем, какие требования действуют для интересующей вас программы.",
+          "Зависит от программы: одни позволяют оформление дистанционно, другие требуют личного присутствия на отдельных этапах. Уточним это заранее.",
       },
       {
         question: "Какие документы потребуются?",
         answer:
-          "Перечень документов зависит от программы и индивидуальной ситуации заявителя. Как правило, необходимы документы, удостоверяющие личность, подтверждающие семейное положение, а также другие документы, предусмотренные требованиями программы. После консультации мы предоставим индивидуальный список документов и подробно объясним порядок их подготовки.",
+          "Обычно — документы, удостоверяющие личность и семейное положение, плюс требования конкретной программы. Точный список — после консультации.",
       },
       {
         question: "Что такое Due Diligence?",
         answer:
-          "Due Diligence — это процедура комплексной проверки заявителя, проводимая в рамках большинства государственных программ. Ее цель — подтвердить соответствие заявителя требованиям программы и обеспечить высокий уровень надежности процедуры. Мы заранее консультируем клиентов по вопросам подготовки к этому этапу.",
+          "Комплексная проверка заявителя, которую проводит большинство программ, чтобы подтвердить соответствие требованиям. Заранее поможем к ней подготовиться.",
       },
       {
         question: "Сколько времени занимает процесс?",
         answer:
-          "Срок рассмотрения заявления зависит от конкретной программы и особенностей каждого дела. Во время консультации мы предоставим актуальную информацию о предполагаемых сроках оформления.",
+          "Сроки зависят от программы и деталей заявки — актуальные оценки даём на консультации.",
       },
       {
         question: "Гарантируется ли получение гражданства?",
         answer:
-          "Нет. Окончательное решение всегда принимают уполномоченные государственные органы. Наша задача — профессионально сопровождать процесс, помочь подготовить документы и обеспечить максимально качественную организацию оформления.",
+          "Нет — окончательное решение принимают государственные органы. Наша задача — подготовить заявление максимально качественно.",
       },
       {
         question: "Можно ли сохранить текущее гражданство?",
         answer:
-          "Этот вопрос зависит от законодательства вашей страны гражданства, а также законодательства государства, гражданство которого вы планируете получить. Перед началом оформления мы рекомендуем получить индивидуальную консультацию с учетом вашей ситуации.",
+          "Зависит от законодательства обеих стран. Рекомендуем получить индивидуальную консультацию перед началом.",
       },
       {
         question: "Как выбрать подходящую программу?",
         answer:
-          "Универсального решения не существует. При выборе программы важно учитывать ваши цели, состав семьи, планы на будущее, инвестиционные возможности и особенности каждой государственной программы. Именно поэтому мы начинаем сотрудничество с консультации и индивидуального анализа.",
+          "Зависит от ваших целей, семьи, инвестиционных возможностей и особенностей каждой программы — поэтому начинаем с консультации, а не с предложения.",
       },
       {
         question: "Почему стоит обратиться в Island Horizons?",
         answer:
-          "Мы сопровождаем клиентов не только в процессе оформления документов. Мы помогаем разобраться в программах, объясняем особенности каждой процедуры, координируем процесс и сопровождаем клиента на всех этапах взаимодействия. Наша работа строится на профессионализме, прозрачности, конфиденциальности и индивидуальном подходе.",
+          "Мы не просто оформляем документы — объясняем программы, координируем процесс и сопровождаем на каждом этапе прозрачно и конфиденциально.",
       },
       {
         question: "Как начать сотрудничество?",
         answer:
-          "Свяжитесь с нами любым удобным способом и расскажите о своем запросе. Мы организуем персональную консультацию, ответим на ваши вопросы, познакомим вас с действующими программами и поможем определить наиболее подходящее решение.",
+          "Напишите нам любым удобным способом — организуем консультацию и поможем подобрать решение.",
       },
     ],
     closing: {
       title: "Остались вопросы?",
-      text: "Если вы не нашли ответ на интересующий вас вопрос, свяжитесь с нами. Мы будем рады предоставить индивидуальную консультацию и помочь разобраться в особенностях государственных программ инвестиционного гражданства.",
+      text: "Не нашли ответ? Свяжитесь с нами — с радостью разберём вашу ситуацию отдельно.",
       cta: "Получить консультацию",
     },
   },

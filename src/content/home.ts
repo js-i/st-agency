@@ -12,17 +12,15 @@ export const homeContent = {
     hero: {
       eyebrow: "Investment Migration Advisory",
       title: "International opportunities begin with the right decision",
-      text: "Second citizenship is more than a new legal status. It is an opportunity to expand your international horizons, secure freedom of movement, protect your family's interests, and plan the future with confidence. Island Horizons guides clients through citizenship obtained via official government investment programs — with professional support, an individual approach, and complete confidentiality at every stage.",
+      text: "Second citizenship is more than a legal status — it's freedom of movement, family security, and long-term options. Island Horizons guides clients through official government investment programs, with an individual approach and full confidentiality at every stage.",
       primaryCta: "Get a Consultation",
       secondaryCta: "Our Programs",
     },
     strategy: {
       title: "Second citizenship as part of a long-term strategy",
       paragraphs: [
-        "The modern world keeps changing. So do the conditions for running an international business, for travel, for education, and for long-term planning.",
-        "Today, second citizenship has become an important instrument for people who want to preserve freedom of choice, secure greater international mobility, and create additional opportunities for themselves and their families.",
-        "For entrepreneurs, it is a way to grow international activity. For investors, an element of long-term strategy. For families, added confidence in the future and a wider set of options for the next generation.",
-        "Every situation is unique. That is why we begin not with choosing a program, but with understanding your goals.",
+        "The world keeps changing — and so do the rules for international business, travel and long-term planning. Second citizenship has become a practical way to preserve freedom of choice and open up new opportunities for you and your family.",
+        "For entrepreneurs, it means room to grow. For investors, a long-term strategy. For families, more options for the next generation. Every situation is different — so we start by understanding your goals, not by pitching a program.",
       ],
     },
     whyUs: {
@@ -31,38 +29,38 @@ export const homeContent = {
         {
           icon: ShieldIcon,
           title: "Individual Approach",
-          text: "We study every client's goals closely and match them to a program that fits their personal, family and professional priorities.",
+          text: "We match every client to a program based on their personal, family and professional priorities.",
         },
         {
           icon: HandshakeIcon,
           title: "End-to-End Support",
-          text: "We guide the process from the first consultation to citizenship being granted, assisting at every stage of the application.",
+          text: "We guide the entire process — from first consultation to citizenship granted.",
         },
         {
           icon: DocumentsIcon,
           title: "Official Government Programs",
-          text: "We work exclusively with government citizenship-by-investment programs, in full compliance with the law and established procedures.",
+          text: "We work exclusively with official government citizenship-by-investment programs.",
         },
         {
           icon: PrivacyIcon,
           title: "Confidentiality",
-          text: "We understand the importance of protecting personal information and maintain a high standard of confidentiality throughout the engagement.",
+          text: "Personal information is protected with strict confidentiality throughout.",
         },
         {
           icon: GlobeIcon,
           title: "Transparency",
-          text: "We explain the procedure, program requirements, review timelines and official costs in advance — clearly and in full.",
+          text: "We explain requirements, timelines and costs upfront — clearly and in full.",
         },
         {
           icon: CompassIcon,
           title: "International Expertise",
-          text: "We closely follow the evolution of investment migration programs and help clients navigate changing international requirements.",
+          text: "We track program changes closely, so our advice stays current.",
         },
       ],
     },
     solutions: {
       title: "Our Solutions",
-      text: "We guide clients through selecting and obtaining citizenship under government investment programs. Each program has its own features, requirements and advantages — our task is to help you choose the solution that best fits your long-term goals.",
+      text: "We help clients choose and obtain citizenship under government investment programs — matching each one to your long-term goals.",
       availableLabel: "Available Program",
       availableName: "São Tomé and Príncipe",
       availableText:
@@ -74,25 +72,22 @@ export const homeContent = {
     },
     approach: {
       title: "Our Approach",
-      text: "We see obtaining second citizenship not as a standalone procedure but as part of long-term planning. That is why our work always begins with a consultation. We study your goals carefully, analyse the available options, and recommend a program that genuinely fits your interests. Once a program is selected, we organise the entire process and guide you through to completion — every stage handled sequentially, transparently, and under the continuous oversight of our specialists.",
+      text: "We treat second citizenship as part of long-term planning, not a one-off procedure. Every engagement starts with a consultation, followed by a program recommendation and full support through to completion.",
       cta: "How We Work",
     },
     trust: {
       title: "Why Clients Trust Us",
       text: "We believe trust is built on the quality of the work, not on promises.",
       points: [
-        "individual guidance for every client",
-        "work exclusively with official government programs",
         "a transparent cost structure",
-        "strict confidentiality",
         "attention to detail",
-        "respect for our clients' time",
+        "respect for your time",
       ],
       closing: "We do not guide paperwork. We guide decisions.",
     },
     finalCta: {
       title: "Start with a Consultation",
-      text: "Every situation is individual. During the first consultation, we will get to know your goals, walk you through the current programs, answer your questions, and help identify the most suitable solution. We look forward to accompanying you toward new international opportunities.",
+      text: "Every situation is individual. During the first consultation, we'll learn about your goals, walk through current programs, and help identify the right solution.",
       cta: "Get a Consultation",
     },
   },
@@ -100,17 +95,15 @@ export const homeContent = {
     hero: {
       eyebrow: "Консалтинг в сфере инвестиционной миграции",
       title: "Международные возможности начинаются с правильного решения",
-      text: "Второе гражданство — это больше, чем новый правовой статус. Это возможность расширить международные перспективы, обеспечить свободу передвижения, защитить интересы семьи и уверенно строить планы на будущее. Island Horizons сопровождает клиентов в получении гражданства через официальные государственные инвестиционные программы, предоставляя профессиональную поддержку, индивидуальный подход и полную конфиденциальность на каждом этапе.",
+      text: "Второе гражданство — это больше, чем правовой статус: это свобода передвижения, защита семьи и возможности на будущее. Island Horizons сопровождает получение гражданства через официальные государственные программы — индивидуально и конфиденциально на каждом этапе.",
       primaryCta: "Получить консультацию",
       secondaryCta: "Наши программы",
     },
     strategy: {
       title: "Второе гражданство как часть долгосрочной стратегии",
       paragraphs: [
-        "Современный мир постоянно меняется. Вместе с ним меняются условия ведения международного бизнеса, возможности для путешествий, образования и долгосрочного планирования.",
-        "Сегодня второе гражданство становится важным инструментом для людей, которые стремятся сохранить свободу выбора, обеспечить большую международную мобильность и создать дополнительные возможности для себя и своей семьи.",
-        "Для предпринимателей это возможность развивать международную деятельность. Для инвесторов — элемент долгосрочной стратегии. Для семей — дополнительная уверенность в будущем и более широкий выбор возможностей для следующих поколений.",
-        "Каждая ситуация уникальна. Именно поэтому мы начинаем не с выбора программы, а с понимания ваших целей.",
+        "Мир меняется — вместе с ним меняются условия для бизнеса, путешествий и долгосрочного планирования. Второе гражданство стало практичным инструментом для сохранения свободы выбора и новых возможностей для вас и вашей семьи.",
+        "Для предпринимателей — это пространство для роста. Для инвесторов — часть долгосрочной стратегии. Для семей — больше возможностей для следующего поколения. Каждая ситуация разная, поэтому мы начинаем с понимания ваших целей, а не с предложения программы.",
       ],
     },
     whyUs: {
@@ -119,38 +112,38 @@ export const homeContent = {
         {
           icon: ShieldIcon,
           title: "Индивидуальный подход",
-          text: "Мы внимательно изучаем цели каждого клиента и подбираем программу, которая соответствует его личным, семейным и профессиональным задачам.",
+          text: "Подбираем программу с учётом личных, семейных и профессиональных приоритетов клиента.",
         },
         {
           icon: HandshakeIcon,
           title: "Полное сопровождение",
-          text: "Мы сопровождаем процесс от первой консультации до получения гражданства, помогая на каждом этапе оформления.",
+          text: "Сопровождаем весь процесс — от консультации до получения гражданства.",
         },
         {
           icon: DocumentsIcon,
           title: "Официальные государственные программы",
-          text: "Мы работаем исключительно с государственными программами получения гражданства за инвестиции, соблюдая действующее законодательство и процедуры.",
+          text: "Работаем только с официальными государственными программами гражданства за инвестиции.",
         },
         {
           icon: PrivacyIcon,
           title: "Конфиденциальность",
-          text: "Мы понимаем важность защиты личной информации и обеспечиваем высокий уровень конфиденциальности на протяжении всего сотрудничества.",
+          text: "Соблюдаем строгую конфиденциальность на всех этапах.",
         },
         {
           icon: GlobeIcon,
           title: "Прозрачность",
-          text: "Мы заранее объясняем процедуру оформления, требования программы, сроки рассмотрения и структуру официальных расходов.",
+          text: "Заранее и понятно объясняем требования, сроки и стоимость.",
         },
         {
           icon: CompassIcon,
           title: "Международная экспертиза",
-          text: "Мы внимательно следим за развитием программ инвестиционной миграции и помогаем клиентам ориентироваться в меняющихся международных требованиях.",
+          text: "Следим за изменениями в программах, чтобы советы всегда были актуальны.",
         },
       ],
     },
     solutions: {
       title: "Наши решения",
-      text: "Мы сопровождаем клиентов в выборе и оформлении гражданства по государственным инвестиционным программам. Каждая программа имеет собственные особенности, требования и преимущества. Наша задача — помочь выбрать решение, которое наилучшим образом соответствует вашим долгосрочным целям.",
+      text: "Помогаем выбрать и оформить гражданство по государственным инвестиционным программам — подбирая решение под ваши долгосрочные цели.",
       availableLabel: "Доступная программа",
       availableName: "Сан-Томе и Принсипи",
       availableText:
@@ -162,25 +155,22 @@ export const homeContent = {
     },
     approach: {
       title: "Наш подход",
-      text: "Мы рассматриваем получение второго гражданства не как отдельную процедуру, а как часть долгосрочного планирования. Поэтому наша работа всегда начинается с консультации. Мы внимательно изучаем цели клиента, анализируем возможные варианты и рекомендуем программу, которая действительно соответствует его интересам. После выбора программы мы организуем весь процесс оформления, сопровождая клиента до завершения процедуры. Каждый этап проходит последовательно, прозрачно и под постоянным контролем наших специалистов.",
+      text: "Мы рассматриваем второе гражданство как часть долгосрочного планирования, а не разовую процедуру. Начинаем с консультации, подбираем программу и сопровождаем весь процесс до завершения.",
       cta: "Как мы работаем",
     },
     trust: {
       title: "Почему нам доверяют",
       text: "Мы убеждены, что доверие строится не на обещаниях, а на качестве работы.",
       points: [
-        "индивидуальное сопровождение каждого клиента",
-        "работа исключительно с официальными государственными программами",
         "прозрачная структура расходов",
-        "соблюдение конфиденциальности",
         "внимание к деталям",
-        "уважение к времени клиента",
+        "уважение к вашему времени",
       ],
       closing: "Мы сопровождаем не документы. Мы сопровождаем решения.",
     },
     finalCta: {
       title: "Начните с консультации",
-      text: "Каждая ситуация индивидуальна. Во время первой консультации мы познакомимся с вашими целями, расскажем о действующих программах, ответим на ваши вопросы и поможем определить наиболее подходящее решение. Мы будем рады сопровождать вас на пути к новым международным возможностям.",
+      text: "Каждая ситуация индивидуальна. На первой консультации мы узнаем о ваших целях, расскажем о действующих программах и поможем подобрать решение.",
       cta: "Получить консультацию",
     },
   },

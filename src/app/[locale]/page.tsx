@@ -261,19 +261,19 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
       </section>
 
       {/* Final CTA */}
-      <section className="relative overflow-hidden bg-navy-950 py-24 text-center text-white sm:py-28">
+      <section className="relative overflow-hidden bg-navy-950 py-24 text-white sm:py-28">
         <BandHorizonArt className="absolute inset-0 h-full w-full opacity-70" />
         <HorizonLine className="h-12 sm:h-14" />
         <div className="container-page relative">
           <SectionReveal>
-            <h2 className="mx-auto max-w-2xl font-display text-3xl font-semibold sm:text-4xl">
+            <h2 className="max-w-2xl font-display text-3xl font-semibold sm:text-4xl">
               {c.finalCta.title}
             </h2>
-            <p className="mx-auto mt-5 max-w-xl text-white/70 leading-relaxed">
+            <p className="mt-5 max-w-xl text-white/70 leading-relaxed">
               {c.finalCta.text}
             </p>
             <div className="mt-9">
-              <ButtonLink href="/contact" variant="primary" className="mx-auto">
+              <ButtonLink href="/contact" variant="primary">
                 {c.finalCta.cta}
               </ButtonLink>
             </div>

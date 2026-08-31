@@ -6,35 +6,34 @@ export const aboutContent = {
       text: "Obtaining second citizenship is not merely a legal procedure. It is a decision that can shape the future of a person, their family, their business, and the generations that follow.",
     },
     intro: [
-      "That is why choosing an advisor matters as much as choosing the program itself. We understand this responsibility, and we build our work on professionalism, transparency and an individual approach.",
-      "Our task is to make a complex international process clear, organised and secure — guiding the client through every stage.",
+      "That's why choosing an advisor matters as much as choosing the program. We build our work on professionalism, transparency and an individual approach — making a complex international process clear, organised and secure from start to finish.",
     ],
     whoWeAre: {
       title: "Who We Are",
-      text: "We are an international consulting company specialising in citizenship by investment advisory. We work with private clients, families, entrepreneurs and investors, helping them choose a program that fits their long-term goals. Every engagement begins with a close study of the client's situation. We analyse the objectives, answer questions, explain the specifics of each program, and guide the process through to a successful outcome.",
+      text: "We're an international consulting company specialising in citizenship by investment. We work with private clients, families, entrepreneurs and investors — studying each situation closely and guiding it through to a successful outcome.",
     },
     approach: {
       title: "Our Approach",
-      text: "We believe there is no universal solution. A program that suits one family perfectly may not be the right choice for another. That is why we do not begin the conversation with a list of countries or investment terms. We begin by understanding your goals. Only then do we recommend a program that genuinely matches your interests and long-term plans.",
+      text: "There's no universal solution — a program that suits one family may not suit another. That's why we start by understanding your goals, then recommend what genuinely fits.",
     },
     differentiators: {
       title: "What Sets Our Work Apart",
       items: [
         {
           title: "Individual Strategy",
-          text: "Every client receives a personal consultation and recommendations based on their life situation, family circumstances and professional goals.",
+          text: "Recommendations based on your life situation, family circumstances and goals — not a template.",
         },
         {
           title: "Comprehensive Support",
-          text: "We coordinate the entire process, helping prepare documents, understand the requirements, and move through every stage calmly and confidently.",
+          text: "We coordinate the whole process — documents, requirements, every stage.",
         },
         {
           title: "Transparency",
-          text: "We explain the procedure, review timelines, official payments and requirements of the chosen program in advance. Our clients always understand how the process is organised and what comes next.",
+          text: "Procedure, timelines and costs explained upfront, so you always know what's next.",
         },
         {
           title: "Confidentiality",
-          text: "We understand how important the protection of personal information is. Every request is handled with strict confidentiality and professional ethics.",
+          text: "Every request is handled with strict confidentiality.",
         },
       ],
     },
@@ -43,44 +42,42 @@ export const aboutContent = {
       items: [
         {
           title: "Professional Expertise",
-          text: "We closely follow the development of government investment migration programs and continuously deepen our knowledge to provide clients with accurate, current information.",
+          text: "We track program changes closely to keep our advice accurate.",
         },
         {
           title: "Responsibility",
-          text: "We understand that second citizenship is a significant, long-term decision for our clients. We accompany the process with attention to detail and a high standard of accountability.",
+          text: "Second citizenship is a major decision — we treat it with the attention it deserves.",
         },
         {
           title: "Trust",
-          text: "We believe trust cannot be earned through loud promises. It is built through open dialogue, professional guidance and consistent work.",
+          text: "Trust isn't won with promises. It's built through open dialogue and consistent work.",
         },
         {
           title: "Long-Term Partnership",
-          text: "We aim to become a reliable partner — one clients return to, and recommend to their families, friends and business partners.",
+          text: "We aim to be the partner clients return to — and recommend.",
         },
       ],
     },
     mission: {
       title: "Our Mission",
-      text: "We help people and families expand their international opportunities by providing professional guidance in obtaining second citizenship through official government programs. We work to make this process clear, transparent and as comfortable as possible.",
+      text: "We help people and families expand their international opportunities through official government citizenship programs — making the process clear, transparent and comfortable.",
     },
     vision: {
       title: "Our Vision",
-      text: "We see Island Horizons as an international consulting company trusted with important decisions in global mobility. We believe long-term success is built not on the number of applications processed, but on the quality of every client relationship.",
+      text: "We see Island Horizons as a trusted partner for important decisions in global mobility. Long-term success is built on the quality of each relationship, not the number of applications filed.",
     },
     promise: {
       title: "Our Promise",
       items: [
-        "We do not offer universal solutions.",
-        "We study every situation closely.",
-        "We work exclusively with official government programs.",
-        "We guide the client through the entire process.",
-        "We openly explain requirements, timelines and costs.",
-        "We treat every case as if we were making the decision for our own family.",
+        "We study every situation individually.",
+        "We work only with official government programs.",
+        "We guide you through the entire process.",
+        "We treat every case like it's our own family's.",
       ],
     },
     closing: {
       title: "In Closing",
-      text: "We do not measure our work by the number of applications filed. For us, the true result is a client's confidence that their interests are in reliable hands. That is why we do not guide paperwork. We guide decisions.",
+      text: "We don't measure success by the number of applications filed, but by our clients' confidence that their interests are in reliable hands. We don't guide paperwork. We guide decisions.",
     },
   },
   ru: {
@@ -90,35 +87,34 @@ export const aboutContent = {
       text: "Получение второго гражданства — это не просто юридическая процедура. Это решение, которое может повлиять на будущее человека, его семьи, бизнеса и следующих поколений.",
     },
     intro: [
-      "Поэтому выбор консультанта имеет не меньшее значение, чем выбор самой программы. Мы понимаем эту ответственность и строим свою работу на принципах профессионализма, прозрачности и индивидуального подхода.",
-      "Наша задача — сделать сложный международный процесс понятным, организованным и безопасным, сопровождая клиента на каждом этапе.",
+      "Поэтому выбор консультанта важен не меньше, чем выбор программы. Мы строим работу на профессионализме, прозрачности и индивидуальном подходе — делая сложный международный процесс понятным, организованным и безопасным от начала до конца.",
     ],
     whoWeAre: {
       title: "Кто мы",
-      text: "Мы — международная консалтинговая компания, специализирующаяся на сопровождении программ получения гражданства за инвестиции. Мы работаем с частными клиентами, семьями, предпринимателями и инвесторами, помогая подобрать программу, соответствующую их долгосрочным целям. Каждый проект начинается с внимательного изучения ситуации клиента. Мы анализируем задачи, отвечаем на вопросы, объясняем особенности программ и сопровождаем процесс оформления до его успешного завершения.",
+      text: "Мы — международная консалтинговая компания, специализирующаяся на гражданстве за инвестиции. Работаем с частными клиентами, семьями, предпринимателями и инвесторами — внимательно изучая ситуацию каждого и сопровождая до результата.",
     },
     approach: {
       title: "Наш подход",
-      text: "Мы убеждены, что не существует универсального решения. Программа, которая идеально подходит одной семье, может оказаться не лучшим выбором для другой. Именно поэтому мы не начинаем разговор с перечня стран или инвестиционных условий. Мы начинаем с понимания ваших целей. Только после этого мы рекомендуем программу, которая действительно соответствует вашим интересам и долгосрочным планам.",
+      text: "Универсального решения не существует — программа, идеальная для одной семьи, может не подойти другой. Поэтому мы начинаем с понимания ваших целей, а затем предлагаем то, что действительно подходит.",
     },
     differentiators: {
       title: "Что отличает нашу работу",
       items: [
         {
           title: "Индивидуальная стратегия",
-          text: "Каждый клиент получает персональную консультацию и рекомендации, основанные на его жизненной ситуации, семейных обстоятельствах и профессиональных целях.",
+          text: "Рекомендации на основе вашей ситуации, а не по шаблону.",
         },
         {
           title: "Комплексное сопровождение",
-          text: "Мы координируем весь процесс оформления, помогая подготовить документы, разобраться в требованиях программы и пройти каждый этап максимально спокойно и уверенно.",
+          text: "Координируем весь процесс: документы, требования, каждый этап.",
         },
         {
           title: "Прозрачность",
-          text: "Мы заранее объясняем порядок работы, сроки рассмотрения, официальные платежи и требования выбранной программы. Наши клиенты всегда понимают, как организован процесс и какие действия предстоят на каждом этапе.",
+          text: "Порядок, сроки и стоимость — заранее и понятно, вы всегда знаете, что дальше.",
         },
         {
           title: "Конфиденциальность",
-          text: "Мы понимаем, насколько важны вопросы защиты персональной информации. Каждое обращение рассматривается с соблюдением строгих принципов конфиденциальности и профессиональной этики.",
+          text: "Каждое обращение — в условиях строгой конфиденциальности.",
         },
       ],
     },
@@ -127,44 +123,42 @@ export const aboutContent = {
       items: [
         {
           title: "Профессиональная экспертиза",
-          text: "Мы внимательно следим за развитием государственных программ инвестиционной миграции и постоянно совершенствуем свои знания, чтобы предоставлять клиентам актуальную и достоверную информацию.",
+          text: "Следим за изменениями программ, чтобы советы оставались точными.",
         },
         {
           title: "Ответственность",
-          text: "Мы понимаем, что для наших клиентов получение второго гражданства является важным долгосрочным решением. Поэтому сопровождаем процесс с вниманием к деталям и высоким уровнем ответственности.",
+          text: "Второе гражданство — важное решение, и мы относимся к нему соответствующе.",
         },
         {
           title: "Доверие",
-          text: "Мы убеждены, что доверие невозможно заслужить громкими обещаниями. Оно формируется благодаря открытому диалогу, профессиональному сопровождению и последовательной работе.",
+          text: "Доверие не завоёвывают обещаниями — оно строится через открытый диалог и последовательную работу.",
         },
         {
           title: "Долгосрочное сотрудничество",
-          text: "Мы стремимся стать надежным партнером, к которому клиенты готовы обращаться снова, рекомендуют своим семьям, друзьям и деловым партнерам.",
+          text: "Мы стремимся стать партнёром, к которому возвращаются и которого рекомендуют.",
         },
       ],
     },
     mission: {
       title: "Наша миссия",
-      text: "Мы помогаем людям и семьям расширять международные возможности, предоставляя профессиональное сопровождение при получении второго гражданства через официальные государственные программы. Мы стремимся сделать этот процесс понятным, прозрачным и максимально комфортным.",
+      text: "Помогаем людям и семьям расширять международные возможности через официальные государственные программы гражданства — делая процесс понятным, прозрачным и комфортным.",
     },
     vision: {
       title: "Наше видение",
-      text: "Мы видим Island Horizons как международную консалтинговую компанию, которой доверяют принятие важных решений в сфере глобальной мобильности. Мы убеждены, что долгосрочный успех строится не на количестве оформленных заявлений, а на качестве отношений с каждым клиентом.",
+      text: "Мы видим Island Horizons надёжным партнёром в вопросах глобальной мобильности. Долгосрочный успех строится на качестве отношений с каждым клиентом, а не на количестве заявлений.",
     },
     promise: {
       title: "Наше обещание",
       items: [
-        "Мы не предлагаем универсальных решений.",
-        "Мы внимательно изучаем каждую ситуацию.",
-        "Мы работаем исключительно с официальными государственными программами.",
-        "Мы сопровождаем клиента на протяжении всего процесса.",
-        "Мы открыто объясняем требования, сроки и структуру расходов.",
-        "Мы относимся к каждой задаче так, как если бы принимали это решение для собственной семьи.",
+        "Изучаем каждую ситуацию индивидуально.",
+        "Работаем только с официальными государственными программами.",
+        "Сопровождаем весь процесс от начала до конца.",
+        "Относимся к каждому делу как к своему собственному.",
       ],
     },
     closing: {
       title: "Заключение",
-      text: "Мы не измеряем свою работу количеством оформленных заявлений. Для нас главный результат — уверенность клиента в том, что его интересы находятся в надежных руках. Именно поэтому мы сопровождаем не документы. Мы сопровождаем решения.",
+      text: "Мы не измеряем успех количеством поданных заявлений — а уверенностью клиента, что его интересы в надёжных руках. Мы сопровождаем не документы. Мы сопровождаем решения.",
     },
   },
 } as const;

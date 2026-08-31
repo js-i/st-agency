@@ -27,13 +27,13 @@
     "sending": "Sending…"
   },
   "footer": {
-    "description": "Island Horizons is an international consulting company in investment migration. We guide clients through citizenship by official government investment programs, helping them make confident decisions and open new opportunities for business, family and the future.",
+    "description": "Island Horizons is an international consulting company guiding clients through citizenship by official government investment programs.",
     "quickLinks": "Quick Links",
     "company": "Company",
     "getInTouch": "Get in Touch",
     "rights": "All rights reserved.",
     "ctaTitle": "Let's discuss your goals",
-    "ctaText": "Reach out for a personal consultation and find out which investment citizenship program fits your long-term plans."
+    "ctaText": "Reach out for a personal consultation to find the program that fits your plans."
   },
   "form": {
     "firstName": "First name",

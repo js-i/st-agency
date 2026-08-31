@@ -289,7 +289,7 @@ export default async function SaoTomePage({
         </div>
       </section>
 
-      <section className="relative overflow-hidden bg-navy-950 py-20 text-center text-white sm:py-24">
+      <section className="relative overflow-hidden bg-navy-950 py-20 text-white sm:py-24">
         <div className="container-page relative max-w-2xl">
           <SectionReveal>
             <h2 className="font-display text-2xl font-semibold sm:text-3xl">
@@ -297,9 +297,7 @@ export default async function SaoTomePage({
             </h2>
             <p className="mt-4 text-white/70 leading-relaxed">{c.closing.text}</p>
             <div className="mt-8">
-              <ButtonLink href="/contact" className="mx-auto">
-                {c.closing.cta}
-              </ButtonLink>
+              <ButtonLink href="/contact">{c.closing.cta}</ButtonLink>
             </div>
           </SectionReveal>
         </div>
