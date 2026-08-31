@@ -38,8 +38,8 @@ export function LocaleSwitcher({ dark = false }: { dark?: boolean }) {
             className={`uppercase transition-colors ${
               locale === loc
                 ? dark
-                  ? "text-gold-light"
-                  : "text-gold-dark"
+                  ? "text-teal-light"
+                  : "text-teal-dark"
                 : dark
                   ? "text-white/60 hover:text-white"
                   : "text-navy-900/50 hover:text-navy-900"

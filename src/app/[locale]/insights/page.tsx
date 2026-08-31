@@ -14,9 +14,9 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Insights | Аналитика по гражданству за инвестиции",
+          title: "Insights | Аналитика по гражданству за инвестиции",
           description:
-            "Экспертные материалы о гражданстве за инвестиции, международной мобильности и инвестиционной миграции от Island Horizons.",
+            "Экспертные материалы о гражданстве за инвестиции, международной мобильности и инвестиционной миграции от Island Horizons.",
         }
       : {
           title: "Insights | Citizenship by Investment Analysis",

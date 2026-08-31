@@ -87,7 +87,7 @@ export default async function InsightArticlePage({
           <SectionReveal delay={0.08} className="mt-14 border-t border-mist-300 pt-8">
             <Link
               href="/insights"
-              className="text-sm font-medium text-gold-dark hover:text-gold"
+              className="text-sm font-medium text-teal-dark hover:text-teal"
             >
               ← {b("backToInsights")}
             </Link>

@@ -26,7 +26,7 @@ export async function generateMetadata({
       ? {
           title: "Контакты Island Horizons",
           description:
-            "Свяжитесь с Island Horizons, чтобы получить персональную консультацию по вопросам гражданства за инвестиции и международной мобильности.",
+            "Свяжитесь с Island Horizons, чтобы получить персональную консультацию по вопросам гражданства за инвестиции и международной мобильности.",
         }
       : {
           title: "Contact Island Horizons",
@@ -59,7 +59,7 @@ export default async function ContactPage({
               const Icon = getIcons[i];
               return (
                 <SectionReveal key={item.title} delay={(i % 4) * 0.07}>
-                  <Icon className="h-8 w-8 text-gold-dark" />
+                  <Icon className="h-8 w-8 text-teal-dark" />
                   <h3 className="mt-4 font-display text-base font-semibold text-navy-950">
                     {item.title}
                   </h3>
@@ -93,7 +93,7 @@ export default async function ContactPage({
                   <dd>
                     <a
                       href={`mailto:${siteConfig.email}`}
-                      className="text-gold-dark hover:text-gold"
+                      className="text-teal-dark hover:text-teal"
                     >
                       {siteConfig.email}
                     </a>
@@ -106,7 +106,7 @@ export default async function ContactPage({
                       href={siteConfig.whatsapp.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-gold-dark hover:text-gold"
+                      className="inline-flex items-center gap-2 text-teal-dark hover:text-teal"
                     >
                       <WhatsAppIcon className="h-4 w-4 shrink-0" />
                       {siteConfig.whatsapp.display}
@@ -120,16 +120,12 @@ export default async function ContactPage({
                       href={siteConfig.telegramContact.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-gold-dark hover:text-gold"
+                      className="inline-flex items-center gap-2 text-teal-dark hover:text-teal"
                     >
                       <TelegramIcon className="h-4 w-4 shrink-0" />
                       {siteConfig.telegramContact.display}
                     </a>
                   </dd>
-                </div>
-                <div>
-                  <dt className="text-slate-light">{c.details.hoursLabel}</dt>
-                  <dd className="text-navy-900">{c.details.hours}</dd>
                 </div>
               </dl>
             </SectionReveal>

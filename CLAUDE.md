@@ -18,7 +18,7 @@ touch its DNS/hosting — see "Deployment" below for the current state.
 ## Stack
 
 - **Next.js 16 (App Router, Turbopack)**, TypeScript, React 19
-- **Tailwind CSS v4** — brand tokens (navy/white/mist/gold) in
+- **Tailwind CSS v4** — brand tokens (navy/white/mist/teal) in
   `src/app/globals.css` under `@theme`
 - **next-intl** — bilingual routing, `en` (default, no URL prefix) / `ru`
   (`/ru/...` prefix). Locale segment lives at `src/app/[locale]/`, which

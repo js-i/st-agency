@@ -76,7 +76,7 @@ export function InsightsDrawer({
               <Link
                 href="/insights"
                 onClick={onClose}
-                className="mt-8 inline-flex items-center text-sm font-medium text-gold-dark hover:text-gold"
+                className="mt-8 inline-flex items-center text-sm font-medium text-teal-dark hover:text-teal"
               >
                 {t("allArticles")} →
               </Link>
@@ -93,7 +93,7 @@ export function InsightsDrawer({
                       params: { category: cat.slug },
                     }}
                     onClick={onClose}
-                    className="py-3 text-[0.95rem] text-navy-900 transition-colors hover:text-gold-dark"
+                    className="py-3 text-[0.95rem] text-navy-900 transition-colors hover:text-teal-dark"
                   >
                     {cat[locale]}
                   </Link>

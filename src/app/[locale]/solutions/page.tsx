@@ -14,14 +14,14 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Решения | Citizenship by Investment и глобальная мобильность",
+          title: "Решения | Citizenship by Investment и глобальная мобильность",
           description:
-            "Комплексные решения в сфере инвестиционной миграции: гражданство за инвестиции, подбор программ, сопровождение оформления и консультационная поддержка.",
+            "Комплексные решения в сфере инвестиционной миграции: гражданство за инвестиции, подбор программ, сопровождение оформления и консультационная поддержка.",
         }
       : {
           title: "Solutions | Citizenship by Investment & Global Mobility",
           description:
-            "Comprehensive investment migration solutions: citizenship by investment, programme selection, application support and advisory guidance.",
+            "Comprehensive investment migration solutions: citizenship by investment, program selection, application support and advisory guidance.",
         };
   return buildMetadata({ locale, href: "/solutions", ...copy });
 }
@@ -60,11 +60,11 @@ export default async function SolutionsPage({
                     Coming Soon
                   </span>
                 )}
-                <item.icon className="h-9 w-9 text-gold-dark" />
+                <item.icon className="h-9 w-9 text-teal-dark" />
                 <h2 className="mt-5 font-display text-xl font-semibold text-navy-950">
                   {item.title}
                 </h2>
-                <p className="mt-1 text-sm font-medium text-gold-dark">
+                <p className="mt-1 text-sm font-medium text-teal-dark">
                   {item.subtitle}
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-slate">

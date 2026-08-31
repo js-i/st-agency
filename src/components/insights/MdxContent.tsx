@@ -14,13 +14,13 @@ const components = {
     <ul className="mt-4 space-y-2 pl-5" {...props} />
   ),
   li: (props: React.ComponentProps<"li">) => (
-    <li className="list-disc leading-relaxed text-slate marker:text-gold" {...props} />
+    <li className="list-disc leading-relaxed text-slate marker:text-teal" {...props} />
   ),
   strong: (props: React.ComponentProps<"strong">) => (
     <strong className="font-semibold text-navy-950" {...props} />
   ),
   a: (props: React.ComponentProps<"a">) => (
-    <a className="text-gold-dark underline underline-offset-2 hover:text-gold" {...props} />
+    <a className="text-teal-dark underline underline-offset-2 hover:text-teal" {...props} />
   ),
 };
 

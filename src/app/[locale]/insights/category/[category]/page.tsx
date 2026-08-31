@@ -30,7 +30,7 @@ export async function generateMetadata({
     title: `${title} | Insights`,
     description:
       loc === "ru"
-        ? `Материалы Insights по теме «${title}» от Island Horizons.`
+        ? `Материалы Insights по теме «${title}» от Island Horizons.`
         : `Insights articles on ${title} from Island Horizons.`,
   });
 }

@@ -15,7 +15,7 @@ export async function generateMetadata({
     title: c.title,
     description:
       locale === "ru"
-        ? "Политика конфиденциальности Island Horizons: какие данные мы собираем и как их используем."
+        ? "Политика конфиденциальности Island Horizons: какие данные мы собираем и как их используем."
         : "Island Horizons Privacy Policy: what data we collect and how we use it.",
   });
 }

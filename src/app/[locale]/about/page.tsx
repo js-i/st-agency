@@ -12,9 +12,9 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "О компании Island Horizons | Надёжные консультанты по глобальной мобильности",
+          title: "О компании Island Horizons | Надёжные консультанты по глобальной мобильности",
           description:
-            "Узнайте больше о философии, ценностях и подходе Island Horizons. Мы сопровождаем клиентов в вопросах инвестиционной миграции и международной мобильности.",
+            "Узнайте больше о философии, ценностях и подходе Island Horizons. Мы сопровождаем клиентов в вопросах инвестиционной миграции и международной мобильности.",
         }
       : {
           title: "About Island Horizons | Trusted Global Mobility Advisors",
@@ -74,7 +74,7 @@ export default async function AboutPage({
           <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
             {c.differentiators.items.map((item, i) => (
               <SectionReveal key={item.title} delay={(i % 2) * 0.08}>
-                <div className="border-l-2 border-gold pl-6">
+                <div className="border-l-2 border-teal pl-6">
                   <h3 className="font-display text-lg font-semibold text-navy-950">
                     {item.title}
                   </h3>
@@ -98,7 +98,7 @@ export default async function AboutPage({
           <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {c.values.items.map((item, i) => (
               <SectionReveal key={item.title} delay={(i % 4) * 0.07}>
-                <h3 className="font-display text-base font-semibold text-gold-light">
+                <h3 className="font-display text-base font-semibold text-teal-light">
                   {item.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/70">
@@ -140,7 +140,7 @@ export default async function AboutPage({
             <ul className="mt-6 space-y-3">
               {c.promise.items.map((item) => (
                 <li key={item} className="flex gap-3 text-slate">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
                   {item}
                 </li>
               ))}

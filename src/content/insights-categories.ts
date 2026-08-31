@@ -2,7 +2,7 @@ export const INSIGHTS_CATEGORIES = [
   {
     slug: "citizenship-by-investment",
     en: "Citizenship by Investment",
-    ru: "Гражданство за инвестиции",
+    ru: "Гражданство за инвестиции",
   },
   {
     slug: "global-mobility",
@@ -16,8 +16,8 @@ export const INSIGHTS_CATEGORIES = [
   },
   {
     slug: "countries-and-programmes",
-    en: "Countries & Programmes",
-    ru: "Страны и программы",
+    en: "Countries & Programs",
+    ru: "Страны и программы",
   },
   { slug: "family", en: "Family", ru: "Семья" },
   { slug: "business", en: "Business", ru: "Бизнес" },
@@ -25,7 +25,7 @@ export const INSIGHTS_CATEGORIES = [
   {
     slug: "faqs-and-guides",
     en: "FAQs & Guides",
-    ru: "Вопросы и руководства",
+    ru: "Вопросы и руководства",
   },
 ] as const;
 

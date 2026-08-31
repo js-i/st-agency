@@ -14,14 +14,14 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Вопросы и ответы | Гражданство за инвестиции",
+          title: "Вопросы и ответы | Гражданство за инвестиции",
           description:
-            "Ответы на наиболее распространенные вопросы о программах инвестиционного гражданства, процедурах оформления и требованиях.",
+            "Ответы на наиболее распространенные вопросы о программах инвестиционного гражданства, процедурах оформления и требованиях.",
         }
       : {
           title: "Frequently Asked Questions | Citizenship by Investment",
           description:
-            "Answers to the most common questions about investment citizenship programmes, application procedures and requirements.",
+            "Answers to the most common questions about investment citizenship programs, application procedures and requirements.",
         };
   return buildMetadata({ locale, href: "/faq", ...copy });
 }
@@ -44,7 +44,7 @@ export default async function FaqPage({ params }: PageProps<"/[locale]/faq">) {
                 <details className="group py-5">
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-base font-semibold text-navy-950 sm:text-lg">
                     {item.question}
-                    <span className="shrink-0 text-gold transition-transform group-open:rotate-45">
+                    <span className="shrink-0 text-teal transition-transform group-open:rotate-45">
                       +
                     </span>
                   </summary>

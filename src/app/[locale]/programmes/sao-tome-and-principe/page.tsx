@@ -20,14 +20,14 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Гражданство Сан-Томе и Принсипи за инвестиции",
+          title: "Гражданство Сан-Томе и Принсипи за инвестиции",
           description:
-            "Официальная программа гражданства Сан-Томе и Принсипи за инвестиции. Узнайте о преимуществах, требованиях и процессе оформления.",
+            "Официальная программа гражданства Сан-Томе и Принсипи за инвестиции. Узнайте о преимуществах, требованиях и процессе оформления.",
         }
       : {
           title: "São Tomé and Príncipe Citizenship by Investment",
           description:
-            "The official São Tomé and Príncipe citizenship-by-investment programme. Learn about the benefits, requirements and application process.",
+            "The official São Tomé and Príncipe citizenship-by-investment program. Learn about the benefits, requirements and application process.",
         };
   return buildMetadata({
     locale,
@@ -56,7 +56,7 @@ export default async function SaoTomePage({
       <JsonLd data={faqJsonLd(c.faq.items.map((i) => ({ question: i.question, answer: i.answer })))} />
       <JsonLd
         data={breadcrumbJsonLd([
-          { name: "Programmes", url: absoluteUrl(locale, "/programmes") },
+          { name: "Programs", url: absoluteUrl(locale, "/programmes") },
           { name: c.countryName, url },
         ])}
       />
@@ -66,7 +66,7 @@ export default async function SaoTomePage({
       <section className="bg-white py-20 sm:py-24">
         <div className="container-page">
           <SectionReveal>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-dark">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-dark">
               {c.gallery.eyebrow}
             </p>
             <h2 className="mt-3 font-display text-2xl font-semibold text-navy-950 sm:text-3xl">
@@ -143,7 +143,7 @@ export default async function SaoTomePage({
             <ul className="mt-5 space-y-3">
               {c.benefits.items.map((item) => (
                 <li key={item} className="flex gap-3 text-sm text-navy-900">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
                   {item}
                 </li>
               ))}
@@ -156,7 +156,7 @@ export default async function SaoTomePage({
             <ul className="mt-5 space-y-3">
               {c.suitedFor.items.map((item) => (
                 <li key={item} className="flex gap-3 text-sm text-navy-900">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
                   {item}
                 </li>
               ))}
@@ -167,6 +167,26 @@ export default async function SaoTomePage({
       </section>
 
       <section className="bg-white py-20 sm:py-24">
+        <div className="container-page max-w-3xl">
+          <SectionReveal>
+            <h2 className="font-display text-2xl font-semibold text-navy-950 sm:text-3xl">
+              {c.costs.title}
+            </h2>
+            <p className="mt-4 text-slate leading-relaxed">{c.costs.text}</p>
+            <ul className="mt-5 space-y-3">
+              {c.costs.items.map((item) => (
+                <li key={item} className="flex gap-3 text-sm text-navy-900">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-sm italic text-slate-light">{c.costs.note}</p>
+          </SectionReveal>
+        </div>
+      </section>
+
+      <section className="bg-mist py-20 sm:py-24">
         <div className="container-page">
           <SectionReveal>
             <h2 className="font-display text-2xl font-semibold text-navy-950 sm:text-3xl">
@@ -176,7 +196,7 @@ export default async function SaoTomePage({
           <ol className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {c.process.steps.map((step, i) => (
               <SectionReveal key={step.title} delay={(i % 3) * 0.06} as="li">
-                <span className="font-display text-2xl font-semibold text-gold/70">
+                <span className="font-display text-2xl font-semibold text-teal/70">
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="mt-2 font-display text-base font-semibold text-navy-950">
@@ -191,7 +211,7 @@ export default async function SaoTomePage({
         </div>
       </section>
 
-      <section className="bg-mist py-20 sm:py-24">
+      <section className="bg-white py-20 sm:py-24">
         <div className="container-page grid grid-cols-1 gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <SectionReveal>
             <h2 className="font-display text-2xl font-semibold text-navy-950 sm:text-3xl">
@@ -201,7 +221,7 @@ export default async function SaoTomePage({
             <ul className="mt-5 space-y-3">
               {c.documents.items.map((item) => (
                 <li key={item} className="flex gap-3 text-sm text-navy-900">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
                   {item}
                 </li>
               ))}
@@ -216,6 +236,17 @@ export default async function SaoTomePage({
               sizes="(min-width: 1024px) 480px, 90vw"
               className="object-cover"
             />
+          </SectionReveal>
+        </div>
+      </section>
+
+      <section className="bg-mist py-20 sm:py-24">
+        <div className="container-page max-w-3xl">
+          <SectionReveal>
+            <h2 className="font-display text-2xl font-semibold text-navy-950 sm:text-3xl">
+              {c.legal.title}
+            </h2>
+            <p className="mt-4 leading-relaxed text-slate">{c.legal.text}</p>
           </SectionReveal>
         </div>
       </section>
@@ -244,7 +275,7 @@ export default async function SaoTomePage({
                 <details className="group py-5">
                   <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-base font-semibold text-navy-950">
                     {item.question}
-                    <span className="shrink-0 text-gold transition-transform group-open:rotate-45">
+                    <span className="shrink-0 text-teal transition-transform group-open:rotate-45">
                       +
                     </span>
                   </summary>

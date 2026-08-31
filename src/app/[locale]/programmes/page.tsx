@@ -17,14 +17,14 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Программы гражданства за инвестиции",
+          title: "Программы гражданства за инвестиции",
           description:
-            "Изучите государственные программы гражданства за инвестиции и выберите решение, соответствующее вашим долгосрочным целям.",
+            "Изучите государственные программы гражданства за инвестиции и выберите решение, соответствующее вашим долгосрочным целям.",
         }
       : {
-          title: "Citizenship by Investment Programmes",
+          title: "Citizenship by Investment Programs",
           description:
-            "Explore government citizenship-by-investment programmes and find the solution that matches your long-term goals.",
+            "Explore government citizenship-by-investment programs and find the solution that matches your long-term goals.",
         };
   return buildMetadata({ locale, href: "/programmes", ...copy });
 }
@@ -52,7 +52,7 @@ export default async function ProgrammesPage({
           <SectionReveal delay={0.06} className="mt-6">
             <Link
               href="/programmes/sao-tome-and-principe"
-              className="group flex flex-col justify-between gap-6 rounded-2xl border border-mist-300 bg-mist p-8 transition-colors hover:border-gold sm:flex-row sm:items-center"
+              className="group flex flex-col justify-between gap-6 rounded-2xl border border-mist-300 bg-mist p-8 transition-colors hover:border-teal sm:flex-row sm:items-center"
             >
               <div>
                 <h3 className="font-display text-2xl font-semibold text-navy-950">
@@ -62,7 +62,7 @@ export default async function ProgrammesPage({
                   {stp.hero.text.slice(0, 160)}…
                 </p>
               </div>
-              <span className="inline-flex shrink-0 items-center gap-2 text-sm font-medium text-gold-dark">
+              <span className="inline-flex shrink-0 items-center gap-2 text-sm font-medium text-teal-dark">
                 {c.cta}
                 <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </span>

@@ -17,10 +17,10 @@ export function ArticleCard({
   return (
     <Link
       href={{ pathname: "/insights/[slug]", params: { slug: article.slug } }}
-      className="group flex h-full flex-col rounded-2xl border border-mist-300 bg-white p-7 transition-colors hover:border-gold"
+      className="group flex h-full flex-col rounded-2xl border border-mist-300 bg-white p-7 transition-colors hover:border-teal"
     >
       {category && (
-        <span className="text-xs font-semibold uppercase tracking-wider text-gold-dark">
+        <span className="text-xs font-semibold uppercase tracking-wider text-teal-dark">
           {category[locale]}
         </span>
       )}
@@ -32,7 +32,7 @@ export function ArticleCard({
       </p>
       <div className="mt-5 flex items-center justify-between text-xs text-slate-light">
         <span>{t("readingTime", { minutes: article.readingMinutes })}</span>
-        <span className="inline-flex items-center gap-1 font-medium text-gold-dark">
+        <span className="inline-flex items-center gap-1 font-medium text-teal-dark">
           <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
         </span>
       </div>

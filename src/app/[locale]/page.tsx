@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { homeContent, type HomeLocale } from "@/content/home";
+import { testimonialsContent } from "@/content/testimonials";
 import { buildMetadata, absoluteUrl } from "@/lib/seo";
 import { JsonLd, serviceJsonLd } from "@/lib/json-ld";
 import { SectionReveal } from "@/components/ui/SectionReveal";
@@ -17,14 +18,14 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Island Horizons | Гражданство за инвестиции и консалтинг по глобальной мобильности",
+          title: "Island Horizons | Гражданство за инвестиции и консалтинг по глобальной мобильности",
           description:
-            "Профессиональное сопровождение при получении гражданства за инвестиции. Индивидуальные решения, официальные государственные программы и комплексная консультационная поддержка.",
+            "Профессиональное сопровождение при получении гражданства за инвестиции. Индивидуальные решения, официальные государственные программы и комплексная консультационная поддержка.",
         }
       : {
           title: "Island Horizons | Citizenship by Investment & Global Mobility Consulting",
           description:
-            "Professional guidance in citizenship by investment. Individual solutions, official government programmes, and comprehensive advisory support from consultation to completion.",
+            "Professional guidance in citizenship by investment. Individual solutions, official government programs, and comprehensive advisory support from consultation to completion.",
         };
 
   return buildMetadata({ locale, href: "/", ...copy });
@@ -35,6 +36,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "common" });
   const c = homeContent[locale as HomeLocale];
+  const testimonials = testimonialsContent[locale as HomeLocale];
 
   return (
     <>
@@ -52,7 +54,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         <HorizonLine className="h-14 sm:h-18" />
         <div className="container-page relative">
           <SectionReveal>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-light">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-light">
               {c.hero.eyebrow}
             </p>
             <h1 className="mt-5 max-w-3xl font-display text-4xl font-semibold leading-[1.12] sm:text-5xl lg:text-6xl">
@@ -80,7 +82,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <h2 className="font-display text-3xl font-semibold text-navy-950 sm:text-4xl">
               {c.strategy.title}
             </h2>
-            <CompassMotif className="mt-10 hidden h-40 w-40 text-gold lg:block" />
+            <CompassMotif className="mt-10 hidden h-40 w-40 text-teal lg:block" />
           </SectionReveal>
           <div className="space-y-5">
             {c.strategy.paragraphs.map((p, i) => (
@@ -106,7 +108,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             {c.whyUs.items.map((item, i) => (
               <SectionReveal key={item.title} delay={(i % 3) * 0.08}>
                 <div className="h-full rounded-2xl border border-mist-300 bg-white p-8">
-                  <item.icon className="h-9 w-9 text-gold-dark" />
+                  <item.icon className="h-9 w-9 text-teal-dark" />
                   <h3 className="mt-5 font-display text-lg font-semibold text-navy-950">
                     {item.title}
                   </h3>
@@ -120,7 +122,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      {/* Block 4 — Solutions / Programmes preview */}
+      {/* Block 4 — Solutions / Programs preview */}
       <section className="bg-navy-950 py-24 text-white sm:py-28">
         <div className="container-page">
           <SectionReveal>
@@ -136,9 +138,9 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <SectionReveal>
               <Link
                 href="/programmes/sao-tome-and-principe"
-                className="group block h-full rounded-2xl border border-gold/30 bg-white/5 p-8 transition-colors hover:border-gold/60"
+                className="group block h-full rounded-2xl border border-teal/30 bg-white/5 p-8 transition-colors hover:border-teal/60"
               >
-                <span className="text-xs font-semibold uppercase tracking-wider text-gold-light">
+                <span className="text-xs font-semibold uppercase tracking-wider text-teal-light">
                   {c.solutions.availableLabel}
                 </span>
                 <h3 className="mt-3 font-display text-2xl font-semibold">
@@ -147,7 +149,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                 <p className="mt-3 text-sm leading-relaxed text-white/70">
                   {c.solutions.availableText}
                 </p>
-                <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold-light">
+                <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-teal-light">
                   {t("available")}
                   <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
@@ -215,12 +217,46 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
                   key={point}
                   className="flex items-start gap-3 rounded-xl border border-mist-300 bg-white p-4 text-sm text-navy-900"
                 >
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-teal" />
                   {point}
                 </li>
               ))}
             </ul>
           </SectionReveal>
+        </div>
+      </section>
+
+      {/* Block 7 — Testimonials */}
+      <section className="bg-white py-24 sm:py-28">
+        <div className="container-page">
+          <SectionReveal>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-dark">
+              {testimonials.eyebrow}
+            </p>
+            <h2 className="mt-3 max-w-2xl font-display text-3xl font-semibold text-navy-950 sm:text-4xl">
+              {testimonials.title}
+            </h2>
+            <p className="mt-4 max-w-2xl text-slate leading-relaxed">
+              {testimonials.text}
+            </p>
+          </SectionReveal>
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {testimonials.items.map((item, i) => (
+              <SectionReveal key={item.name} delay={(i % 3) * 0.08}>
+                <figure className="flex h-full flex-col rounded-2xl border border-mist-300 bg-mist p-8">
+                  <blockquote className="flex-1 text-sm leading-relaxed text-slate">
+                    “{item.quote}”
+                  </blockquote>
+                  <figcaption className="mt-6 border-t border-mist-300 pt-4">
+                    <p className="font-display text-sm font-semibold text-navy-950">
+                      {item.name}
+                    </p>
+                    <p className="text-xs text-slate-light">{item.country}</p>
+                  </figcaption>
+                </figure>
+              </SectionReveal>
+            ))}
+          </div>
         </div>
       </section>
 

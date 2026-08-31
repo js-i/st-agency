@@ -3,18 +3,18 @@ export const contactContent = {
     hero: {
       eyebrow: "Contact",
       title: "The first step toward new opportunities begins with a conversation",
-      text: "Every situation is individual. The choice of an investment citizenship programme depends on your goals, family circumstances, professional activity and long-term plans. That is why we recommend starting with a personal consultation, where we will answer your questions, walk you through the current programmes, and help identify the most suitable solution.",
+      text: "Every situation is individual. The choice of an investment citizenship program depends on your goals, family circumstances, professional activity and long-term plans. That is why we recommend starting with a personal consultation, where we will answer your questions, walk you through the current programs, and help identify the most suitable solution.",
     },
     getSection: {
       title: "What You Get During the Consultation",
       items: [
         {
           title: "An overview of available options",
-          text: "We explain the current government programmes, their features and key requirements.",
+          text: "We explain the current government programs, their features and key requirements.",
         },
         {
           title: "A preliminary assessment of your situation",
-          text: "We discuss your goals and help determine which programmes may match your expectations.",
+          text: "We discuss your goals and help determine which programs may match your expectations.",
         },
         {
           title: "Answers to your questions",
@@ -35,8 +35,6 @@ export const contactContent = {
       emailLabel: "Email",
       whatsappLabel: "WhatsApp",
       telegramLabel: "Telegram",
-      hoursLabel: "Office Hours",
-      hours: "Monday – Friday, 09:00–18:00 (GMT)",
     },
     form: {
       title: "Request a Consultation",
@@ -44,55 +42,53 @@ export const contactContent = {
     },
     closing: {
       title: "Whatever Stage You Are At",
-      text: "Whether you are just beginning to explore the available programmes or already considering a specific one, we would be glad to discuss your goals and help you determine the next steps. We believe successful cooperation begins with an open conversation, mutual trust and professional guidance.",
+      text: "Whether you are just beginning to explore the available programs or already considering a specific one, we would be glad to discuss your goals and help you determine the next steps. We believe successful cooperation begins with an open conversation, mutual trust and professional guidance.",
     },
   },
   ru: {
     hero: {
       eyebrow: "Контакты",
-      title: "Первый шаг к новым возможностям начинается с разговора",
-      text: "Каждая ситуация индивидуальна. Выбор программы инвестиционного гражданства зависит от ваших целей, семейных обстоятельств, профессиональной деятельности и долгосрочных планов. Именно поэтому мы рекомендуем начать с персональной консультации, во время которой ответим на ваши вопросы, расскажем о действующих программах и поможем определить наиболее подходящее решение.",
+      title: "Первый шаг к новым возможностям начинается с разговора",
+      text: "Каждая ситуация индивидуальна. Выбор программы инвестиционного гражданства зависит от ваших целей, семейных обстоятельств, профессиональной деятельности и долгосрочных планов. Именно поэтому мы рекомендуем начать с персональной консультации, во время которой ответим на ваши вопросы, расскажем о действующих программах и поможем определить наиболее подходящее решение.",
     },
     getSection: {
-      title: "Что вы получите во время консультации",
+      title: "Что вы получите во время консультации",
       items: [
         {
           title: "Понимание доступных возможностей",
-          text: "Мы расскажем о действующих государственных программах, их особенностях и основных требованиях.",
+          text: "Мы расскажем о действующих государственных программах, их особенностях и основных требованиях.",
         },
         {
           title: "Предварительную оценку вашей ситуации",
-          text: "Мы обсудим ваши цели и поможем определить, какие программы могут соответствовать вашим ожиданиям.",
+          text: "Мы обсудим ваши цели и поможем определить, какие программы могут соответствовать вашим ожиданиям.",
         },
         {
-          title: "Ответы на ваши вопросы",
-          text: "Мы подробно объясним порядок оформления, этапы процесса, требования к документам и сроки рассмотрения заявлений.",
+          title: "Ответы на ваши вопросы",
+          text: "Мы подробно объясним порядок оформления, этапы процесса, требования к документам и сроки рассмотрения заявлений.",
         },
         {
           title: "Профессиональные рекомендации",
-          text: "По итогам консультации вы получите объективное представление о возможных вариантах и сможете принять взвешенное решение.",
+          text: "По итогам консультации вы получите объективное представление о возможных вариантах и сможете принять взвешенное решение.",
         },
       ],
     },
     format: {
-      title: "Как проходит консультация",
-      text: "Мы предлагаем удобный формат общения в зависимости от вашего местонахождения и предпочтений. Консультация может быть проведена онлайн, по телефону или при личной встрече, если это доступно. Продолжительность консультации определяется индивидуально и зависит от сложности вашего запроса.",
+      title: "Как проходит консультация",
+      text: "Мы предлагаем удобный формат общения в зависимости от вашего местонахождения и предпочтений. Консультация может быть проведена онлайн, по телефону или при личной встрече, если это доступно. Продолжительность консультации определяется индивидуально и зависит от сложности вашего запроса.",
     },
     details: {
       title: "Наши контакты",
       emailLabel: "Электронная почта",
       whatsappLabel: "WhatsApp",
       telegramLabel: "Telegram",
-      hoursLabel: "Часы работы",
-      hours: "Понедельник — пятница, 09:00–18:00 (GMT)",
     },
     form: {
       title: "Оставьте заявку",
-      text: "Заполните форму, и мы свяжемся с вами в ближайшее время, чтобы обсудить ваш запрос и подобрать наиболее подходящее решение.",
+      text: "Заполните форму, и мы свяжемся с вами в ближайшее время, чтобы обсудить ваш запрос и подобрать наиболее подходящее решение.",
     },
     closing: {
-      title: "На каком бы этапе вы ни находились",
-      text: "Независимо от того, только начинаете изучать программы или уже рассматриваете конкретное решение, мы будем рады обсудить ваши цели и помочь определить дальнейшие шаги. Мы уверены, что успешное сотрудничество начинается с открытого диалога, взаимного доверия и профессиональной консультации.",
+      title: "На каком бы этапе вы ни находились",
+      text: "Независимо от того, только начинаете изучать программы или уже рассматриваете конкретное решение, мы будем рады обсудить ваши цели и помочь определить дальнейшие шаги. Мы уверены, что успешное сотрудничество начинается с открытого диалога, взаимного доверия и профессиональной консультации.",
     },
   },
 } as const;

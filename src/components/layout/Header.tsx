@@ -59,7 +59,7 @@ export function Header() {
           <LocaleSwitcher dark />
           <Link
             href="/contact"
-            className="rounded-full border border-gold bg-gold px-5 py-2.5 text-sm font-medium text-navy-950 transition-colors hover:bg-gold-light hover:border-gold-light"
+            className="rounded-full border border-teal bg-teal px-5 py-2.5 text-sm font-medium text-navy-950 transition-colors hover:bg-teal-light hover:border-teal-light"
           >
             {b("getConsultation")}
           </Link>
@@ -104,7 +104,7 @@ export function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="mt-2 rounded-full bg-gold px-5 py-3 text-center text-sm font-medium text-navy-950"
+              className="mt-2 rounded-full bg-teal px-5 py-3 text-center text-sm font-medium text-navy-950"
             >
               {b("getConsultation")}
             </Link>

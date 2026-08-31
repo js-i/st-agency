@@ -13,9 +13,9 @@ export async function generateMetadata({
   const copy =
     locale === "ru"
       ? {
-          title: "Наш подход | Профессиональное сопровождение на каждом этапе",
+          title: "Наш подход | Профессиональное сопровождение на каждом этапе",
           description:
-            "Узнайте, как мы сопровождаем клиентов на каждом этапе получения второго гражданства — от первой консультации до завершения процесса.",
+            "Узнайте, как мы сопровождаем клиентов на каждом этапе получения второго гражданства — от первой консультации до завершения процесса.",
         }
       : {
           title: "Our Approach | Professional Guidance Every Step of the Way",
@@ -42,7 +42,7 @@ export default async function ApproachPage({
             {c.steps.map((step, i) => (
               <SectionReveal key={step.number} delay={(i % 3) * 0.06}>
                 <div className="grid grid-cols-1 gap-4 border-t border-mist-300 pt-8 sm:grid-cols-[100px_1fr] sm:gap-8">
-                  <span className="font-display text-4xl font-semibold text-gold/70">
+                  <span className="font-display text-4xl font-semibold text-teal/70">
                     {step.number}
                   </span>
                   <div>
@@ -70,7 +70,7 @@ export default async function ApproachPage({
           <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {c.qualities.items.map((item, i) => (
               <SectionReveal key={item.title} delay={(i % 4) * 0.07}>
-                <h3 className="font-display text-base font-semibold text-gold-light">
+                <h3 className="font-display text-base font-semibold text-teal-light">
                   {item.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/70">

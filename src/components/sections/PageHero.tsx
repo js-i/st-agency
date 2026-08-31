@@ -17,7 +17,7 @@ export function PageHero({
       <div className="container-page relative">
         <SectionReveal>
           {eyebrow && (
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold-light">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-light">
               {eyebrow}
             </p>
           )}

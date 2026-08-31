@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/Button";
 const initialState: ContactFormState = { status: "idle" };
 
 const inputClass =
-  "w-full rounded-lg border border-mist-300 bg-white px-4 py-3 text-sm text-navy-950 placeholder:text-slate-light focus:border-gold focus:outline-none focus:ring-1 focus:ring-gold";
+  "w-full rounded-lg border border-mist-300 bg-white px-4 py-3 text-sm text-navy-950 placeholder:text-slate-light focus:border-teal focus:outline-none focus:ring-1 focus:ring-teal";
 const labelClass = "text-sm font-medium text-navy-900";
 
 export function ContactForm() {
@@ -25,7 +25,7 @@ export function ContactForm() {
     return (
       <div
         role="status"
-        className="rounded-2xl border border-gold/40 bg-gold-tint px-6 py-8 text-navy-950"
+        className="rounded-2xl border border-teal/40 bg-teal-tint px-6 py-8 text-navy-950"
       >
         <p className="font-display text-lg font-semibold">{t("success")}</p>
       </div>
@@ -126,7 +126,7 @@ export function ContactForm() {
             </option>
             <option value="São Tomé and Príncipe">São Tomé and Príncipe</option>
             <option value="Vanuatu (Coming Soon)">Vanuatu (Coming Soon)</option>
-            <option value="Not sure yet">{locale === "ru" ? "Пока не определился(-ась)" : "Not sure yet"}</option>
+            <option value="Not sure yet">{locale === "ru" ? "Пока не определился(-ась)" : "Not sure yet"}</option>
           </select>
         </div>
       </div>

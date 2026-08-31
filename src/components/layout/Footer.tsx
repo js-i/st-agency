@@ -101,7 +101,6 @@ export function Footer() {
                 {siteConfig.telegramContact.display}
               </a>
             </li>
-            <li>{t("officeHours")}</li>
           </ul>
         </div>
       </div>

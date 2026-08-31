@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   // Dev server otherwise 403s all /_next/static chunk requests (and HMR's
   // websocket) when the site is opened from another device on the LAN via
   // its IP instead of localhost, since that origin isn't allow-listed.
-  allowedDevOrigins: ["192.168.111.13"],
+  allowedDevOrigins: ["192.168.111.13", "192.168.100.3"],
 };
 
 export default withNextIntl(nextConfig);

@@ -1,6 +1,6 @@
 /**
  * Abstract brand visual system used in place of photography: a horizon line,
- * faint compass rings and a longitude grid rendered in navy/gold. Keeps hero
+ * faint compass rings and a longitude grid rendered in navy/teal. Keeps hero
  * and section backgrounds on-brand (no beaches, no stock cliches) until real
  * photography is commissioned.
  */
@@ -60,7 +60,7 @@ export function HeroHorizonArt({ className = "" }: { className?: string }) {
 export function HorizonLine({ className = "" }: { className?: string }) {
   return (
     <div className={`absolute inset-x-0 bottom-0 ${className}`}>
-      <div className="h-px w-full bg-gold/50" />
+      <div className="h-px w-full bg-teal/50" />
       <div className="h-full w-full bg-navy-950/55" />
     </div>
   );

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Brand palette — deep navy, white, light mist gray, warm gold/sand accent. */
+  /* Brand palette — deep navy, white, light mist gray, turquoise accent. */
   --color-navy-950: #0a1a2e;
   --color-navy-900: #0f2540;
   --color-navy-800: #163353;
@@ -16,10 +16,10 @@
   --color-mist-200: #eaecf0;
   --color-mist-300: #dde1e6;
 
-  --color-gold: #ab8752;
-  --color-gold-light: #c7a66f;
-  --color-gold-dark: #8a6a3c;
-  --color-gold-tint: #f2e9d8;
+  --color-teal: #2f8f86;
+  --color-teal-light: #5fada6;
+  --color-teal-dark: #1f6b63;
+  --color-teal-tint: #e3f2f0;
 
   --font-display: var(--font-manrope);
   --font-sans: var(--font-inter);

@@ -7,7 +7,7 @@ export const siteConfig = {
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
     "https://island-horizons.vercel.app",
-  email: "info@citizenshipsaotome.com",
+  email: "info@islandhorizonstp.com",
   whatsapp: {
     display: "+239 988 2147",
     href: "https://wa.me/2399882147",

@@ -7,7 +7,7 @@ type LinkHref = ComponentProps<typeof Link>["href"];
 
 const variantClasses: Record<Variant, string> = {
   primary:
-    "bg-gold text-navy-950 hover:bg-gold-light border border-gold hover:border-gold-light",
+    "bg-teal text-navy-950 hover:bg-teal-light border border-teal hover:border-teal-light",
   secondary:
     "bg-transparent text-white border border-white/40 hover:border-white hover:bg-white/5",
   ghost:
@@ -15,7 +15,7 @@ const variantClasses: Record<Variant, string> = {
 };
 
 const base =
-  "inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold";
+  "inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal";
 
 export function ButtonLink({
   href,
