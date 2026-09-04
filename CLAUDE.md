@@ -122,11 +122,21 @@ removed.
   no vector source. Ask for an SVG/AI file if the mark needs to scale
   further than current usages.
 - **Video**: no video component exists; no hosting decision has been made.
-- **Domain/deploy**: not yet deployed anywhere. `sitemap.xml`/`robots.txt`/
-  canonical URLs currently point at `https://island-horizons.vercel.app` —
-  update `SITE_URL` throughout (search-and-replace across all files, or
-  regenerate from the generator script if you still have it) once a real
-  domain is assigned.
+- **Domain/deploy**: not yet deployed. `sitemap.xml`/`robots.txt`/canonical
+  URLs/JSON-LD already point at the real domain,
+  `https://www.islandhorizonstp.com`. `vercel.json` at the project root
+  configures the Vercel deployment: `framework`/`buildCommand`/
+  `installCommand` are all `null` (plain static deployment, nothing to
+  build or install), `trailingSlash: true` matches the `/path/` URL scheme
+  used throughout, a host-based redirect sends the apex domain
+  (`islandhorizonstp.com`) to `www.`, and a `/ru/:path*` rewrite serves
+  `ru/404.html` for unmatched Russian paths (Vercel's own root `404.html`
+  fallback only covers the English side). **The apex→www redirect only
+  works once both `islandhorizonstp.com` and `www.islandhorizonstp.com` are
+  added as domains on the Vercel project** (Project → Settings → Domains) —
+  `vercel.json` can't add the domains itself, only redirect between them
+  once both exist. When importing the repo into Vercel, select the
+  **Other** framework preset (not Next.js).
 - **Privacy Policy** (`privacy-policy/index.html`) is a reasonable draft,
   not legal-reviewed. Have it checked before relying on it. It was also
   simplified when the contact form and analytics were removed — it no
