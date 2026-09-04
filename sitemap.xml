@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.islandhorizonstp.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/about/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/about/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/about/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/about/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/solutions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/solutions/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/solutions/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/solutions/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/solutions/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/solutions/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/our-approach/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/our-approach/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/our-approach/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/our-approach/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/our-approach/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/our-approach/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/programmes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/programmes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/programmes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/programmes/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/programmes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/programmes/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/programmes/sao-tome-and-principe/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/programmes/sao-tome-and-principe/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/programmes/sao-tome-and-principe/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/programmes/sao-tome-and-principe/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/programmes/sao-tome-and-principe/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/programmes/sao-tome-and-principe/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/faq/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/contact/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/contact/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/privacy-policy/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/privacy-policy/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/citizenship-by-investment/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/citizenship-by-investment/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/citizenship-by-investment/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/citizenship-by-investment/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/citizenship-by-investment/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/citizenship-by-investment/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/global-mobility/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/global-mobility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/global-mobility/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/global-mobility/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/global-mobility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/global-mobility/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/investment-migration/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/investment-migration/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/investment-migration/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/investment-migration/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/investment-migration/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/investment-migration/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/countries-and-programmes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/countries-and-programmes/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/countries-and-programmes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/countries-and-programmes/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/countries-and-programmes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/countries-and-programmes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/family/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/family/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/family/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/family/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/family/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/family/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/business/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/business/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/business/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/business/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/business/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/business/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/news/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/news/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/news/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/news/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/category/faqs-and-guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/faqs-and-guides/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/faqs-and-guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/category/faqs-and-guides/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/category/faqs-and-guides/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/category/faqs-and-guides/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/what-is-citizenship-by-investment/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/what-is-citizenship-by-investment/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/what-is-citizenship-by-investment/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/what-is-citizenship-by-investment/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/how-to-choose-a-citizenship-programme/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/how-to-choose-a-citizenship-programme/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/how-to-choose-a-citizenship-programme/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/how-to-choose-a-citizenship-programme/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/sao-tome-and-principe-what-to-know/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/sao-tome-and-principe-what-to-know/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/sao-tome-and-principe-what-to-know/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/sao-tome-and-principe-what-to-know/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/insights/second-citizenship-for-the-family/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.islandhorizonstp.com/insights/second-citizenship-for-the-family/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.islandhorizonstp.com/ru/insights/second-citizenship-for-the-family/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.islandhorizonstp.com/ru/insights/second-citizenship-for-the-family/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
